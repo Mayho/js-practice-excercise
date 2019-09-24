@@ -4,12 +4,10 @@
 //     let numberOfPizzas = 10;
 //     let numberOfRows = 10;
 //     for (let i = 0; i < numberOfRows; i++){
-
-    
 //         for (let i = 0; i < numberOfPizzas; i++) {
 //         pizza = pizza + "🐻";
 //         }
-//         pizza += "\n"
+//         pizza += "\n"j
 //     }
 //     console.log(pizza);
 
@@ -17,21 +15,27 @@
 
 let triangleEmoji = ""
 let numberOfRows = 8
-
 for (let i = 0; i < numberOfRows; i++) {
-    triangleEmoji += "🔼"
+    triangleEmoji += '🔼';
     console.log(triangleEmoji);
 }
 
-// answer to question 3 
+/*
+let numberOfRows2 = 8;
+let triangles = '';
+while (numberOfRows2 > 0) {
+  triangles += '🔼';
+  numberOfRows2--;
+}
+console.log({triangles});
+*/
 
+
+// answer to question 3 
 // let triangleEmoji = ""
 // let numberOfRows = 7
-
 // for (let i = 0; i < numberOfRows; i--) {
 //     triangleEmoji -= 8
 //     console.log(triangleEmoji);
-    
-
 // }
 
